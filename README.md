@@ -1,4 +1,4 @@
-# 🛡️ FraudShield AI — Fraud Detection & Risk Mitigation
+# 🛡️ RiskGuard AI — Fraud Detection & Risk Mitigation
 
 An AI-powered, fully deployable fraud detection and risk mitigation system built with Python, scikit-learn, and a real-time interactive dashboard.
 
@@ -39,11 +39,8 @@ fraud-detection/
 
 ### Option 1: Run Everything (Recommended)
 
-```bash
-# Install core dependencies
-pip install scikit-learn pandas numpy joblib
 
-# Generate data, train models, run demo
+pip install scikit-learn pandas numpy joblib
 python run.py
 ```
 
