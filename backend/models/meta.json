@@ -1,0 +1,21 @@
+{
+  "feature_cols": [
+    "amount",
+    "hour",
+    "v1",
+    "v2",
+    "v3",
+    "v4",
+    "v5",
+    "velocity",
+    "geo_mismatch",
+    "device_risk",
+    "ip_risk"
+  ],
+  "best_model": "logistic_regression",
+  "best_f1": 1.0,
+  "n_train": 8000,
+  "n_test": 2000,
+  "fraud_rate_train": 0.02,
+  "fraud_rate_test": 0.02
+}
