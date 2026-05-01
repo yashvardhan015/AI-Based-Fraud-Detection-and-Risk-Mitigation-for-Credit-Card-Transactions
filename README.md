@@ -10,15 +10,15 @@ An AI-powered, fully deployable fraud detection and risk mitigation system built
 fraud-detection/
 ├── backend/
 │   ├── api/
-│   │   └── main.py              # FastAPI REST API (score, stats, transactions)
+│   │   └── main.py              # API
 │   ├── data/
-│   │   ├── generate_dataset.py  # Synthetic fraud dataset generator
-│   │   └── transactions.csv     # Generated dataset (10,000 transactions)
+│   │   ├── generate_dataset.py  
+│   │   └── transactions.csv     # add the transsactions here
 │   ├── models/
 │   │   ├── train_model.py       # Trains 4 ML models + evaluation
-│   │   ├── *.pkl                # Saved model files
-│   │   ├── scaler.pkl           # Feature scaler
-│   │   ├── results.json         # Model performance metrics
+│   │   ├── *.pkl                
+│   │   ├── scaler.pkl           
+│   │   ├── results.json         # Model performance 
 │   │   └── meta.json            # Model metadata
 │   └── utils/
 │       └── predict.py           # Batch prediction CLI tool
@@ -213,12 +213,4 @@ Transaction → Data Ingestion → Feature Engineering → ML Scoring Engine
 - Real-time Kafka streaming pipeline
 - Drift detection and auto-retraining
 
----
 
-## 📚 References
-
-Based on the academic survey covering 38 papers (2021–2025) on AI-driven fraud detection, including work on GNNs, federated learning, explainable AI, and adversarial robustness.
-
----
-
-*FraudShield AI — Final Year Project, Computer Science & Engineering*
